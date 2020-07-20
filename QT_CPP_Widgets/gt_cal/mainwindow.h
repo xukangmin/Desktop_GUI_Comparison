@@ -21,6 +21,8 @@ private slots:
 
     void on_btnLogin_clicked();
 
+    void on_pushButton_clicked();
+
 private:
     QNetworkAccessManager * manager;
     Ui::MainWindow *ui;
